@@ -1,0 +1,32 @@
+.registration-parent-div {
+  text-align: center;
+}
+.registration-parent-div::-webkit-scrollbar { 
+    display: none;
+}
+
+.registration-child-div {
+  display: inline-block;
+  width: 33%;
+}
+
+.div-steps {
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-bottom: 5%;
+   margin-top: 4%;
+}
+
+.input-fields {
+   margin-bottom: 3%;
+}
+
+.check-box-agreement {
+   margin-left: -33%;
+}
+
+.register-button {
+    margin-left: -67%;
+    margin-top: 6%;
+    width: 32%;
+}
