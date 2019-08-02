@@ -10,29 +10,9 @@ const onChange = e => {
 
 const { Step } = Steps;
 class RegistrationContainer extends React.Component {
-    state = { visible: false };
 
-    showModal = () => {
-        this.setState({
-            visible: true,
-        });
-    };
-
-    handleOk = e => {
-        console.log(e);
-        this.setState({
-            visible: false,
-        });
-    };
-
-    handleCancel = e => {
-        console.log(e);
-        this.setState({
-            visible: false,
-        });
-    };
-    
     render() {
+        let { showModal, handleOk, handleCancel, visible, currentStep } = this.props;
         return (
             <div>
                 <Fragment>
@@ -40,7 +20,7 @@ class RegistrationContainer extends React.Component {
                         <Divider><code>{"</>"}</code></Divider>
                     </div>
                     <div className="div-steps">
-                        <Steps size="small" current={0}>
+                        <Steps size="small" current={currentStep}>
                             <Step title="Account Creation" />
                             <Step title="Verification" />
                             <Step title="Login" />
@@ -57,20 +37,19 @@ class RegistrationContainer extends React.Component {
                                     <Checkbox onChange={onChange} className="check-box-agreement">
                                     I agree to the license 
                                     </Checkbox>
-                                    <a onClick={this.showModal}>terms and conditions</a>
+                                    <a onClick={showModal}>terms and conditions</a>
                                     <br></br>
                                     <Button type="primary" className="register-button">Register</Button>
                                 </Form>
-                            
                             </div>
                     </div>
                     <Modal
                         title="Terms and Conditions"
-                        visible={this.state.visible}
-                        onOk={this.handleOk}
-                        onCancel={this.handleCancel}
+                        visible={visible}
+                        onOk={handleOk}
+                        onCancel={handleCancel}
                     >
-                        <p>1. Sample content of terms and conditions</p>
+                    <p>1. Sample content of terms and conditions</p>
                     </Modal>
                 </Fragment>  
             </div>
