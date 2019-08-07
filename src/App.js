@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import Login from './user_components/LoginContainer';
 import LoginLoadStateFunctions from './user_components/functions/LoginLoadStateFunctions';
 import RegistrationLoadStateFunctions from './user_components/functions/RegistrationLoadStateFunctions';
+import RegistrationContainer from './user_components/RegistrationContainer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 
@@ -13,7 +14,7 @@ class App extends Component {
          <Router>
            <Switch>
              <Route path="/user/login" exact strict render={() => (<LoginLoadStateFunctions />)} />;
-            <Route path="/user/registration" exact strict render={() => (<RegistrationLoadStateFunctions />)} />;
+            <Route path="/user/registration" exact strict render={() => (<RegistrationContainer />)} />;
           </Switch>
          </Router>
       </div> 

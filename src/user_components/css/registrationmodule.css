@@ -11,8 +11,8 @@
 }
 
 .div-steps {
-   margin-left: 25%;
-   margin-right: 25%;
+   margin-left: 15%;
+   margin-right: 15%;
    margin-bottom: 5%;
    margin-top: 4%;
 }
@@ -29,4 +29,21 @@
     margin-left: -67%;
     margin-top: 6%;
     width: 32%;
+}
+
+.verification-title {
+   font-size: 38px;
+}
+
+.verification-sub-title {
+   font-size: 26px !important;
+}
+
+.ant-page-header {
+   font-size: 25px !important;
+}
+
+.verification-code-input {
+   margin-bottom: 2% !important;
+   width: 26% !important;
 }

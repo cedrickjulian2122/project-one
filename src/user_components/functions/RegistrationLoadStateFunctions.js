@@ -1,20 +1,6 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import 'antd/dist/antd.css';
-import RegistrationContainer from '../RegistrationContainer';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
-
-// const routes = [
-//     {
-//         path: "/user/registration",
-//         exact: true,
-//         main: () => <>
-//     }
-// ]
-
-
-
-
+import RegistrationComponents from './RegistrationComponents';
 
 class RegistrationLoadStateFunctions extends React.Component {
     state = { 
@@ -38,12 +24,12 @@ class RegistrationLoadStateFunctions extends React.Component {
     render() {
         return (
             <div>
-               <RegistrationContainer 
+                <RegistrationComponents
                     showModal={this.showModal.bind(this)}
                     handleOk={this.handleOk.bind(this)}
                     handleCancel={this.handleCancel.bind(this)}
                     visible={this.state.visible}
-                    currentStep={this.state.currentStep}
+                    currentStep={this.currentStep}
                />
             </div>
         );
