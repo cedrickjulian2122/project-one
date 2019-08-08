@@ -47,3 +47,39 @@
    margin-bottom: 2% !important;
    width: 26% !important;
 }
+
+.inline {
+   float:left;
+}
+
+.inline-form {
+    margin-top: 25%;
+    margin-left: -46%;
+    margin-right: -14%;
+}
+
+.divider {
+   height: 38.9em;
+   margin-left: -1587%;
+   margin-top: 596%;
+   width: 3px;
+   color: black;
+}
+
+
+.result-title-text {
+   margin-top: 3% !important;
+   font-size: 20px !important;
+   margin-left: 6% !important;
+}
+
+.fogot-password-inputs {
+   width: 55%;
+   margin-left: 10%;
+   margin-top: 1%;
+}
+
+.send-button {
+   margin-top: 2%;
+   margin-left: 10%;
+}

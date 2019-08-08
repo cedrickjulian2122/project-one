@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import './css/loginmodule.css';
 import 'antd/dist/antd.css';
+// import Logo from '../icon/mainlogo.png';
 import { Input, Icon, Divider, Button, Checkbox, Form } from 'antd';
 import { tickRememberMeonChange, validate } from './functions/LoginFunctions';
 

@@ -4,7 +4,7 @@ import './css/registrationmodule.css';
 import RegistrationLoadStateFunctions from './functions/RegistrationLoadStateFunctions';
 import RegistrationVerifLoadStateFunctions from './functions/RegistrationVerifLoadStateFunctions';
 import RegistrationSuccessLoadStateFunctions from './functions/RegistrationSuccessLoadStateFunctions';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 
 function _originalPage() { 
     return <RegistrationLoadStateFunctions />; 
