@@ -8,13 +8,8 @@ import { Router, Route } from "react-router-dom";
 function renderFogotPassword() {
   return <ForgotPasswordComponent />;
 }
-
 function renderPasswordChange() {
   return <ForgotPasswordChangeComponent />;
-}
-
-function renderSuccessPage() {
-  return <ForgotPasswordSuccessSentComponent />;
 }
 
 export default class ForgotPasswordContainer extends Component {
@@ -28,7 +23,7 @@ export default class ForgotPasswordContainer extends Component {
             component={renderFogotPassword}
           />
           <Route
-            path="/user/forgotPassword/forgotPasswordVerification"
+            path="/user/forgotPassword/Reset"
             exact
             component={renderPasswordChange}
           />

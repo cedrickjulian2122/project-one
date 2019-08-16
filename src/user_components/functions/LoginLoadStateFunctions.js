@@ -29,7 +29,7 @@ class LoginLoadStateFunctions extends React.Component {
             touched: { ...this.state.touched, [field]: true }
         });
     };
-    
+
 
     handleSubmit = evt => {
         if (!this.canBeSubmitted()) {
@@ -47,7 +47,7 @@ class LoginLoadStateFunctions extends React.Component {
     }
     render() {
         let { handleBlur, handleSubmit, errors, isDisabled } = this.props;
-        return(
+        return (
             <div>
                 <LoginContainer
                     handleBlur={handleBlur}

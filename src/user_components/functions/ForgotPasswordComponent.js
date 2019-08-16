@@ -51,11 +51,6 @@ export default class ForgotPasswordComponent extends Component {
                   className="fogot-password-inputs"
                 />
                 <br />
-                {/* <Link
-                  to={`/user/forgotPassword/emailSent/${this.state.email} ,${
-                    this.state.subTitle
-                  },${this.state.title}`}
-                > */}
                 <Link
                   to={{
                     pathname: "/user/forgotPassword/emailSent",

@@ -1,0 +1,120 @@
+.search-div-form {
+    width: 33%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 1px !important;
+}
+
+.ant-advanced-search-form {
+  padding: 24px;
+  /* background: #EAEAEA; */
+  border: 1px solid #d9d9d9;
+  border-radius: 1px;
+}
+
+.ant-advanced-search-form .ant-form-item {
+  display: flex;
+}
+
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+  flex: 1;
+}
+
+.main-div-projects {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    width: 95%;
+}
+
+
+.gutter-example .ant-row > div {
+  background: transparent;
+  border: 0;
+  
+}
+.gutter-box {
+  /* background: #00a0e9; */
+  background-color: white;
+  padding: 5px 0;
+  border-radius: 4px;
+}
+
+.gutter-div-position {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.list-item-position {
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.btn-project-div {
+  text-align: right !important;
+}
+
+.divider-space {
+  margin-bottom: -3% !important;
+  font-size: 12px !important;
+}
+
+.action-option-space {
+  margin-left: -15%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.action-option-btn {
+  height: 20px !important;
+  font-size: 11px !important;
+  border-radius: 2px !important;
+}
+
+.main-list {
+  border-radius: 2px !important;
+}
+
+.search-bar-btn {
+    /* margin-left: -5%; */
+    font-size: 13px !important;
+    border-radius: 2px !important;
+    margin-left: 62% !important;
+}
+
+.project-details-content {
+      font-size: 15px !important;
+}
+
+.div-inline {
+  float:left;
+}
+
+.description-size {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 0%;
+}
+
+.proj-lbl-bg {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%) !important;
+}
+
+.divider-layout {
+  margin-top: 0% !important;
+  margin-bottom: 0% !important;
+}
+
+.div-gutter-margin {
+  margin-top: 1% !important;
+}
+
+.timeline-margin {
+  margin-left: 8% !important;
+  margin-top: 2% !important;
+}
+
+
+

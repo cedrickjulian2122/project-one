@@ -4,16 +4,18 @@ function hastickRememberMeonChange(e) {
 
 
 function myvalidate(username, password) {
-        return {
-            username: username.length === 0,
-            password: password.length === 0
-        };
-        
- }
+    return {
+        username: username.length === 0,
+        password: password.length === 0
+    };
+
+}
 
 export const handleUsernameChange = evt => {
     this.setState({ username: evt.target.value });
 };
+
+
 
 export const tickRememberMeonChange = hastickRememberMeonChange;
 export const validate = myvalidate;
